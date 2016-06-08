@@ -26,9 +26,9 @@ Brief summary/description of the plugin.
     // URL to the plugin's documentation
     def documentation = "http://grails.org/plugin/swaggy-hidden"
 
-    def loadBefore = ['swaggydoc']
     def dependsOn = [swaggydoc:"0.26.0"]
-    def loadAfter = ['controllers']
+    def loadBefore = ['controllers']
+    def loadAfter = ['swaggydoc']
 
     // Extra (optional) plugin metadata
 
