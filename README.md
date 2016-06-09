@@ -96,7 +96,6 @@ To make the plugin work there is need to configure some components inside the gr
     
         "/rest/books" (resources:'book', excludes:['create', 'edit', 'patch']) { format = 'json' }
         "/rest/authors" (resources:'author', excludes:['create', 'edit', 'patch']) { format = 'json' }
-
     }
 
     Spring Security:
