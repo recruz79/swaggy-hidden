@@ -19,7 +19,8 @@ class SwaggyHiddenGrailsPlugin extends Plugin {
     def author = "Raul Cruz"
     def authorEmail = "raul.cruz@whiteprompt.com"
     def description = '''\
-Brief summary/description of the plugin.
+Swaggy hidden is an extension of swaggyDoc which add more features to support hidding properties for domains and configures a mixed spring security by token and authentication
+allowing them to work together in the same application.
 '''
     def profiles = ['web']
 

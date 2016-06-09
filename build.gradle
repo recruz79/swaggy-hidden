@@ -11,7 +11,7 @@ buildscript {
     }
 }
 
-version "0.5"
+version "0.6"
 group "swaggy.hidden"
 
 apply plugin:"eclipse"
